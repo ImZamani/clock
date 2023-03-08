@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.title {
+    color: rgba(195, 195, 46, 0.718);
+    font-size: 120px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.header{
+    margin-top: 150px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    background-color: rgb(195, 195, 46);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 20px;
+    position: relative;
+}
+
+.colon{
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.hourInput , .minuteInput , .secondInput{
+    color: aliceblue;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 50px;
+}
